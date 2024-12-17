@@ -9,7 +9,9 @@ then
      echo "Warning RAM is running"
  else
 	 echo "sufficent space"
+	 exit 1
 fi
 
-
+hostname=$(hostname)
+echo "$hostname"
 
