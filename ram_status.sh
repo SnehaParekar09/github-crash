@@ -13,5 +13,8 @@ then
 fi
 
 hostname=$(hostname)
+
 echo "$hostname"
+
+echo "Hello"
 
