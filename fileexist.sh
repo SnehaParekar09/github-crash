@@ -12,3 +12,7 @@ fi
 
 Hostname=$(hostname)
 echo "$Hostname"
+
+x=10
+y=20
+echo "addition is $(($x+$y))"
