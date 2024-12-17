@@ -12,5 +12,6 @@ then
 	 exit 1
 fi
 
-
+hostname=$(hostname)
+echo "$hostname"
 
